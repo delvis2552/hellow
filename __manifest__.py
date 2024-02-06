@@ -20,16 +20,17 @@
 ##############################################################################
 
 {
-    'name': 'Father MFH 2.0',
+    'name': 'Hello_W 2.0',
     'version': '16.0.1.0.0',
-    'author': 'Marlon Falcon Hernandez',
-    'maintainer': 'Marlon Falcon Hernandez',
-    'website': 'http://www.marlonfalcon.com',
+    'author': 'Delvis Cruz',
+    'maintainer': 'Delvis Cruz',
+    'website': 'http://dv.com',
     'license': 'AGPL-3',
     'category': 'Extra Tools',
     'summary': 'Father es un modulo base.',
     'depends': ['base'],
     'data': [
+              'security/ir.model.access.csv',
               'views/views.xml',
             ],
     'images': ['static/description/banner.jpg'],
